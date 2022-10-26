@@ -1,6 +1,8 @@
 <template>
   <Home></Home>
-  <ModalActivation v-if="isOpenedActivationModal" />
+  <transition name="fade-fast">
+    <ModalActivation v-if="isOpenedActivationModal" />
+  </transition>
 </template>
 
 <script>
@@ -108,5 +110,22 @@ p {
   font-size: 12px;
   line-height: 15px;
   color: $lightGreyAlt;
+}
+.fade-fast-enter-from,
+.fade-fast-leave-to {
+  opacity: 0;
+}
+.fade-fast-enter-active,
+.fade-fast-leave-active {
+  transition: opacity 0.3s ease-out;
+}
+.slide-down-enter-from,
+.slide-down-leave-to {
+  opacity: 0;
+  transform: translateY(100%);
+}
+.slide-down-enter-active,
+.slide-down-leave-active {
+  transition: 0.7s ease-out;
 }
 </style>

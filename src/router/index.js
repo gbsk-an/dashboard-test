@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   {
@@ -6,7 +6,7 @@ const routes = [
     name: "MyPrograms",
     component: () => import("@/views/MyPrograms.vue"),
   },
-]
+];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
@@ -14,6 +14,6 @@ const router = createRouter({
   scrollBehavior(to, from, savedPosition) {
     return { top: 0 };
   },
-})
+});
 
-export default router
+export default router;

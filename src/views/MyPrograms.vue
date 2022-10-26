@@ -6,22 +6,21 @@
     <Activation />
     <Table />
     <div class="my-programs_more">
-      <button-more  />
+      <button-more />
     </div>
-    
   </div>
 </template>
 
 <script>
 import InputSearch from "@/components/InputSearch.vue";
-import Table from '@/components/Table.vue'
-import Activation from '@/components/Activation.vue'
+import Table from "@/components/Table.vue";
+import Activation from "@/components/Activation.vue";
 export default {
   name: "MyPrograms",
   components: {
     InputSearch,
     Table,
-    Activation
+    Activation,
   },
 };
 </script>
@@ -37,6 +36,4 @@ export default {
     text-align: right;
   }
 }
-
-
 </style>

@@ -48,7 +48,7 @@ export default {
         transform: translateY(-50%);
         cursor: pointer;
       }
-      
+
       & > h5 {
         color: $themeBlue;
       }

@@ -1,7 +1,11 @@
 <template>
   <div class="container">
     <Menu />
-    <router-view />
+    <router-view v-slot="{ Component }">
+      <transition name="slide-down">
+        <component :is="Component" />
+      </transition>
+    </router-view>
   </div>
 </template>
 

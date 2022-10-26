@@ -86,7 +86,9 @@
         <textarea class="activation-modal-content_textarea">
 Комментарий...</textarea
         >
-        <button type="button" class="activation-modal-content_button">Запросить код</button>
+        <button type="button" class="activation-modal-content_button">
+          Запросить код
+        </button>
       </div>
       <button class="activation-modal_hide-button" @click.stop="hideModal" />
     </div>
@@ -171,7 +173,7 @@ export default {
     &_button {
       width: fit-content;
       height: fit-content;
-      padding: .75em 1.5em;
+      padding: 0.75em 1.5em;
       background: transparent;
       border-radius: 50px;
       border: 1px solid $lightGrey;
