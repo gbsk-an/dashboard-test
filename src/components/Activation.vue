@@ -14,15 +14,14 @@
         <p class="activation-body-info_important">
           Наименование компьютера:
           <span>HOME-PC</span>
-          <img @mouseover="tooltip = true" @mouseleave="tooltip = false" src="@/assets/svg/important-blue.svg" width="20" height="20" />
-          <div v-show="tooltip" class="tooltip">
+          <img @mouseover="tooltipPcInfo = true" @mouseleave="tooltipPcInfo = false" src="@/assets/svg/important-blue.svg" />
+          <div v-show="tooltipPcInfo" class="tooltip">
             <div class="triangle"></div>
             <div class="tooltip-info-important">
               <p class="p-mini">Роман</p>
               <p class="p-mini">Pentium (R) Dual-Core CPU T440 @ 2.20 GHz</p>
               <p class="p-mini">Майкрософт Windows 8.1 Профессиональная</p>
-            </div>
-            
+            </div>            
           </div>
         </p>
         <p>
@@ -67,7 +66,7 @@ export default {
   data() {
     return {
       activationModal: { isOpened: false },
-      tooltip: false
+      tooltipPcInfo: false
     };
   },
   methods: {

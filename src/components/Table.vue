@@ -14,10 +14,10 @@
         <div class="col-2 table-row_prog">(2) Детский сад: Питание</div>
         <div class="col-3 table-row_duration">08.09.2022</div>
         <div class="col-4 table-row_download">
-          <img src="@/assets/svg/download-green.svg" />
+          <button-download />
         </div>
         <div class="col-5 table-row_manual">
-          <img src="@/assets/svg/file-blue.svg" />
+          <button-manual />
         </div>
         <div class="col-6 table-row_status">
           <p class="table-row_status-active">Активировано (1)</p>
@@ -41,10 +41,10 @@
         <div class="col-2 table-row_prog">(2) Детский сад: Питание</div>
         <div class="col-3 table-row_duration">08.09.2022</div>
         <div class="col-4 table-row_download">
-          <img src="@/assets/svg/download-green.svg" />
+          <button-download />
         </div>
         <div class="col-5 table-row_manual">
-          <img src="@/assets/svg/file-blue.svg" />
+          <button-manual />
         </div>
         <div class="col-6 table-row_status">
           <p class="table-row_status-active">Активировано (1)</p>
@@ -56,10 +56,10 @@
         <div class="col-2 table-row_prog">(2) Детский сад: Питание</div>
         <div class="col-3 table-row_duration">08.09.2022</div>
         <div class="col-4 table-row_download">
-          <img src="@/assets/svg/download-green.svg" />
+          <button-download />
         </div>
         <div class="col-5 table-row_manual">
-          <img src="@/assets/svg/file-blue.svg" />
+          <button-manual />
         </div>
         <div class="col-6 table-row_status">
           <p class="table-row_status-active">Активировано (2)</p>

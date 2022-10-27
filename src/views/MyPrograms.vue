@@ -1,7 +1,7 @@
 <template>
   <div class="my-programs">
     <h1 class="my-programs_title">Мои программы</h1>
-    <InputSearch />
+    <input-search />
     <Table />
     <Activation />
     <Table />
@@ -12,15 +12,13 @@
 </template>
 
 <script>
-import InputSearch from "@/components/InputSearch.vue";
 import Table from "@/components/Table.vue";
 import Activation from "@/components/Activation.vue";
 export default {
   name: "MyPrograms",
   components: {
-    InputSearch,
     Table,
-    Activation,
+    Activation
   },
 };
 </script>
